@@ -1,0 +1,39 @@
+
+@host = https://jsonplaceholder.typicode.com
+@host2 = https://pokeapi.co/api/v2
+GET {{host}}/users
+###
+GET {{host}}/photos
+
+###
+GET {{host}}/users/5
+
+
+
+###
+GET {{host2}}/pokemon?limit=20
+###
+GET {{host2}}/pokemon/1
+###
+POST {{host}}/users
+Content-Type: application/json
+
+{
+    "name":"intro IDS"
+}
+
+###
+
+PUT  {{host}}/users/8
+Content-Type: application/json
+
+{
+"username": "Bretids",
+"email": "Sincere@ITESO.biz"
+}
+
+###
+
+DELETE {{host}}/users/5
+
+###
