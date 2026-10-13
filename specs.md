@@ -1,3 +1,3 @@
 #Specs
 
-API de usuarios
+API de usuarios de datos externos
