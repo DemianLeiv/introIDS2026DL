@@ -6,3 +6,5 @@ get /users
 get /users/:id
 
 post /users
+
+modifación externa
