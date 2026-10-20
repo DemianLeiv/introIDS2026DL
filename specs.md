@@ -8,3 +8,4 @@ get /users/:id
 post /users
 
 modifacaco interna
+modifación externa
